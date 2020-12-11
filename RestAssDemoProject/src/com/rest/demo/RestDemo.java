@@ -3,6 +3,8 @@ package com.rest.demo;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+import org.testng.Assert;
+
 import com.body.store.PayLoad;
 import com.body.store.ReusableMethods;
 
@@ -56,6 +58,7 @@ public class RestDemo {
 		//JsonPath js1 = new JsonPath(newAdd);
 		String newAddd= jp.getString("address");
 		System.out.println("address value "+newAddd);
+		Assert.assertEquals(newAddd, newAddress);
 
 
 

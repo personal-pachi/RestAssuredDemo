@@ -64,5 +64,6 @@
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/scala-support-4.3.2-dist/scala-support-4.3.2-deps/jakarta.xml.bind-api-2.3.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/scala-support-4.3.2-dist/scala-support-4.3.2-deps/jaxb-impl-2.3.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/scala-support-4.3.2-dist/scala-support-4.3.2-deps/scala-library-2.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/testng-7.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
